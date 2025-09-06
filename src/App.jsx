@@ -1,7 +1,9 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 
 import './App.css';
+import { trackPageView } from './lib/utils';
 
 // Components
 import UltraNavigation from './components/UltraNavigation';
@@ -43,12 +45,27 @@ import TermsOfServicePage from './pages/TermsOfServicePage';
 import CookiePolicyPage from './pages/CookiePolicyPage';
 import PersonalPage from './pages/PersonalPage';
 
+// Component to track page views
+function PageTracker() {
+  const location = useLocation();
+
+  useEffect(() => {
+    const pageTitle = document.title;
+    const pageLocation = window.location.href;
+    
+    trackPageView(pageTitle, pageLocation);
+  }, [location]);
+
+  return null;
+}
 
 function App() {
   return (
-    <Router>
-      <div className="App ultra-gradient-bg min-h-screen">
-        <UltraNavigation />
+    <HelmetProvider>
+      <Router>
+        <div className="App ultra-gradient-bg min-h-screen">
+          <PageTracker />
+          <UltraNavigation />
         
         <Routes>
         {/* Main Pages */}
@@ -101,9 +118,10 @@ function App() {
         <Route path="/meet" element={<PersonalPage />} />
       </Routes>
       
-      <UltraFooter />
-    </div>
-    </Router>
+        <UltraFooter />
+        </div>
+      </Router>
+    </HelmetProvider>
   );
 }
 

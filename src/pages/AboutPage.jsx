@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { Users, Target, Zap, Globe, Award, Heart, Brain, Rocket } from 'lucide-react';
 import meetPatelImage from '../assets/themeetpatel.jpeg';
 import drashtySoniImage from '../assets/drashty.jpg';
@@ -94,6 +95,16 @@ const AboutPage = () => {
 
   return (
     <div className="min-h-screen pt-16 ultra-gradient-bg">
+      <Helmet>
+        <title>About StartupOS - Meet The Meet Patel & Our Revolutionary Startup Team | Founders & Entrepreneurs</title>
+        <meta name="description" content="Meet The Meet Patel, founder of StartupOS, and our team of startup experts, entrepreneurs, and founders. Learn about our mission to revolutionize startup success with AI-powered tools and world-class community." />
+        <meta name="keywords" content="about startupos, the meet patel, themeetpatel, startup founders, startup team, startup entrepreneurs, startup experts, startup leadership, startup success, startup community, startup ecosystem, startup mentorship" />
+        <meta property="og:title" content="About StartupOS - Meet The Meet Patel & Our Revolutionary Startup Team" />
+        <meta property="og:description" content="Meet The Meet Patel, founder of StartupOS, and our team of startup experts. Learn about our mission to revolutionize startup success." />
+        <meta property="og:url" content="https://startupos.in/about" />
+        <link rel="canonical" href="https://startupos.in/about" />
+      </Helmet>
+      
       {/* Floating Particles Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="floating-particles"></div>

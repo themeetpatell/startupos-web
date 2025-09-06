@@ -435,15 +435,15 @@ const PartnersPage = () => {
               Together, we can create more value for founders worldwide.
             </p>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+              <motion.button
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
               onClick={() => setShowForm(true)}
-              className="ultra-button flex items-center space-x-2 mx-auto"
-            >
-              <Handshake className="w-5 h-5" />
-              <span>Apply for Partnership</span>
-            </motion.button>
+                className="ultra-button flex items-center space-x-2 mx-auto"
+              >
+                <Handshake className="w-5 h-5" />
+                <span>Apply for Partnership</span>
+              </motion.button>
           </motion.div>
 
           {/* Partnership Types Filter */}
@@ -672,9 +672,9 @@ const PartnersPage = () => {
 
           {/* Form Toggle */}
           <div className="text-center mb-12">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
               onClick={() => setShowForm(!showForm)}
               className="ultra-button flex items-center space-x-2 mx-auto"
             >
@@ -689,7 +689,7 @@ const PartnersPage = () => {
                   <span>Show Application Form</span>
                 </>
               )}
-            </motion.button>
+                </motion.button>
           </div>
 
           {/* Application Form */}
@@ -967,15 +967,15 @@ const PartnersPage = () => {
 
                     {/* Form Actions */}
                     <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 pt-6">
-                      <motion.button
+                <motion.button
                         type="button"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
                         onClick={resetForm}
                         className="px-8 py-4 text-white/80 hover:text-white transition-colors border border-white/20 rounded-xl hover:border-white/40"
-                      >
+                >
                         Reset Form
-                      </motion.button>
+                </motion.button>
                       
                       <motion.button
                         type="submit"
@@ -996,10 +996,10 @@ const PartnersPage = () => {
                           </>
                         )}
                       </motion.button>
-                    </div>
+            </div>
                   </form>
                 )}
-              </motion.div>
+          </motion.div>
             )}
           </AnimatePresence>
         </div>

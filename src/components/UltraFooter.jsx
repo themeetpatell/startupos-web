@@ -164,7 +164,7 @@ const UltraFooter = () => {
                     <div className="w-24 h-14 rounded-xl flex items-center justify-center overflow-hidden">
                       <img 
                         src="/src/assets/logo.png" 
-                        alt="Startup-Center" 
+                        alt="StartupOS Logo - Revolutionary Startup Operating System" 
                         className="w-full h-full object-cover"
                       />
                     </div>

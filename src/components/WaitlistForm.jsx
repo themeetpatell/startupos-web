@@ -13,6 +13,7 @@ import {
   Rocket,
   Zap
 } from 'lucide-react';
+import { trackWaitlistSignup, trackButtonClick } from '../lib/utils';
 
 const WaitlistForm = ({ 
   variant = 'primary', 
@@ -64,6 +65,9 @@ const WaitlistForm = ({
       };
       localStorage.setItem('startupos_waitlist', JSON.stringify([...existingWaitlist, newEntry]));
       
+      // Track waitlist signup
+      trackWaitlistSignup('waitlist_form');
+      
       setSubmitSuccess(true);
       setFormData({
         firstName: '', lastName: '', email: '', company: '', phone: '', 
@@ -109,7 +113,10 @@ const WaitlistForm = ({
     <>
       {/* Trigger Button */}
       <motion.button
-        onClick={() => setIsOpen(true)}
+        onClick={() => {
+          trackButtonClick('waitlist_form_open', 'waitlist_button');
+          setIsOpen(true);
+        }}
         className={`${getButtonStyles()} ${getSizeStyles()} ${className}`}
         whileHover={{ scale: 1.05, y: -2 }}
         whileTap={{ scale: 0.95 }}

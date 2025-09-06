@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
+import { Helmet } from 'react-helmet-async';
 import { 
   Lightbulb,
   Rocket,
@@ -120,6 +121,18 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
+      <Helmet>
+        <title>StartupOS - Revolutionary Startup Operating System for Founders & Entrepreneurs | The Meet Patel</title>
+        <meta name="description" content="StartupOS is the revolutionary AI-powered startup operating system for founders, entrepreneurs, and startup teams. Built by The Meet Patel, it provides AI co-builders, stage-aware gamification, world-class community, and everything you need to scale from idea to exit." />
+        <meta name="keywords" content="startup OS, startupos, startup operating system, founders, entrepreneurs, startup platform, AI co-builders, startup community, the meet patel, themeetpatel, startup ecosystem, startup tools, startup growth, startup scaling, startup funding, startup mentorship, startup resources, startup networking, startup success, startup journey, idea to MVP, MVP to PMF, PMF to scale, startup analytics, fractional CXOs, startup partnerships, startup acquisition, startup exit strategy" />
+        <meta property="og:title" content="StartupOS - Revolutionary Startup Operating System for Founders & Entrepreneurs" />
+        <meta property="og:description" content="The most advanced startup platform for founders, built by The Meet Patel. AI-powered co-builders, stage-aware gamification, world-class community. Transform your startup from idea to scale." />
+        <meta property="og:url" content="https://startupos.in" />
+        <meta name="twitter:title" content="StartupOS - Revolutionary Startup Operating System for Founders" />
+        <meta name="twitter:description" content="AI-powered startup platform for founders and entrepreneurs. Built by The Meet Patel. From idea to scale with world-class tools and community." />
+        <link rel="canonical" href="https://startupos.in" />
+      </Helmet>
+      
       {/* Hero Section - Revolutionary Storytelling */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Animated Background Grid */}
@@ -180,17 +193,17 @@ const HomePage = () => {
               <span className="text-white">THE</span>
               <br />
               <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
-                STARTUP SHOW
+                STARTUP OS
               </span>
               <br />
-              <span className="text-white text-5xl md:text-6xl">STARTS HERE</span>
+              <span className="text-white text-5xl md:text-6xl">REVOLUTION</span>
             </h1>
             <p className="text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed">
-              90% of startups fail. Not because the idea was bad, but because the journey is harder than anyone imagined. 
+              90% of startups fail. Not because the idea was bad, but because founders lack the right startup operating system. 
               <br />
-              <span className="text-red-400 font-semibold">The causes of failure, uncertainty, and resource scarcity are winning.</span>
+              <span className="text-red-400 font-semibold">The startup journey is harder than anyone imagined - but it doesn't have to be.</span>
               <br />
-              <span className="text-blue-400 font-semibold">It's time to fight back with the ultimate startup arsenal.</span>
+              <span className="text-blue-400 font-semibold">StartupOS gives founders, entrepreneurs, and startup teams the ultimate arsenal to succeed.</span>
             </p>
           </motion.div>
 

@@ -26,6 +26,7 @@ import {
 } from 'lucide-react';
 import WaitlistForm from './WaitlistForm';
 import BlogDashboard from './BlogDashboard';
+import { trackButtonClick, trackNavigation } from '../lib/utils';
 
 import '../App.css';
 
@@ -449,6 +450,7 @@ const UltraNavigation = () => {
                 <Link
                   to="/pricing"
                   className="text-white/80 hover:text-white transition-colors duration-300 font-medium"
+                  onClick={() => trackNavigation('/pricing', 'desktop_nav')}
                 >
                   Pricing
                 </Link>
@@ -458,6 +460,7 @@ const UltraNavigation = () => {
                 <Link
                   to="/about"
                   className="text-white/80 hover:text-white transition-colors duration-300 font-medium"
+                  onClick={() => trackNavigation('/about', 'desktop_nav')}
                 >
                   About
                 </Link>
@@ -467,6 +470,7 @@ const UltraNavigation = () => {
                 <Link
                   to="/contact"
                   className="text-white/80 hover:text-white transition-colors duration-300 font-medium"
+                  onClick={() => trackNavigation('/contact', 'desktop_nav')}
                 >
                   Contact
                 </Link>
@@ -643,7 +647,10 @@ const UltraNavigation = () => {
                     <Link
                       to="/pricing"
                       className="block text-white/80 hover:text-white transition-colors"
-                      onClick={() => setIsOpen(false)}
+                      onClick={() => {
+                        trackNavigation('/pricing', 'mobile_nav');
+                        setIsOpen(false);
+                      }}
                     >
                       Pricing
                     </Link>
@@ -654,7 +661,10 @@ const UltraNavigation = () => {
                     <Link
                       to="/about"
                       className="block text-white/80 hover:text-white transition-colors"
-                      onClick={() => setIsOpen(false)}
+                      onClick={() => {
+                        trackNavigation('/about', 'mobile_nav');
+                        setIsOpen(false);
+                      }}
                     >
                       About
                     </Link>
@@ -665,7 +675,10 @@ const UltraNavigation = () => {
                     <Link
                       to="/contact"
                       className="block text-white/80 hover:text-white transition-colors"
-                      onClick={() => setIsOpen(false)}
+                      onClick={() => {
+                        trackNavigation('/contact', 'mobile_nav');
+                        setIsOpen(false);
+                      }}
                     >
                       Contact
                     </Link>

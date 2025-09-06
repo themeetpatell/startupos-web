@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { 
   User, Briefcase, Target, Code, Trophy, Mic, FileText, Users,
   Linkedin, Twitter, Github, Instagram, Youtube, Mail, MapPin,
@@ -184,6 +185,16 @@ const PersonalPage = () => {
 
   return (
     <div className="min-h-screen pt-16 ultra-gradient-bg">
+      <Helmet>
+        <title>The Meet Patel - Founder & CEO of StartupOS | Serial Entrepreneur & Startup Expert</title>
+        <meta name="description" content="Meet The Meet Patel, founder and CEO of StartupOS. Serial entrepreneur, startup expert, and author. Learn about his journey building multiple successful startups and his vision for revolutionizing the startup ecosystem." />
+        <meta name="keywords" content="the meet patel, themeetpatel, startup founder, startup CEO, serial entrepreneur, startup expert, startup mentor, startup author, startup success, startup journey, startup leadership, startup innovation" />
+        <meta property="og:title" content="The Meet Patel - Founder & CEO of StartupOS | Serial Entrepreneur" />
+        <meta property="og:description" content="Meet The Meet Patel, founder and CEO of StartupOS. Serial entrepreneur, startup expert, and author revolutionizing the startup ecosystem." />
+        <meta property="og:url" content="https://startupos.in/meet" />
+        <link rel="canonical" href="https://startupos.in/meet" />
+      </Helmet>
+      
       {/* Hero Section */}
       <section className="py-20 relative overflow-hidden">
                                 <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-blue-900/20 to-slate-900" />
