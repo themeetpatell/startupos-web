@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion';
 import { Users, Target, Zap, Globe, Award, Heart, Brain, Rocket } from 'lucide-react';
 import meetPatelImage from '../assets/themeetpatel.jpeg';
 import drashtySoniImage from '../assets/drashty.jpg';
-import YashviSoniImage from '../assets/Yashvi.jpg';
+import YashviSoniImage from '../assets/yashvi.jpg';
 import '../App.css';
 
 const AboutPage = () => {
