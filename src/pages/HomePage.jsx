@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
-import { Helmet } from 'react-helmet-async';
 import { 
   Lightbulb,
   Rocket,
@@ -121,17 +120,6 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
-      <Helmet>
-        <title>StartupOS - Revolutionary Startup Operating System for Founders & Entrepreneurs | The Meet Patel</title>
-        <meta name="description" content="StartupOS is the revolutionary AI-powered startup operating system for founders, entrepreneurs, and startup teams. Built by The Meet Patel, it provides AI co-builders, stage-aware gamification, world-class community, and everything you need to scale from idea to exit." />
-        <meta name="keywords" content="startup OS, startupos, startup operating system, founders, entrepreneurs, startup platform, AI co-builders, startup community, the meet patel, themeetpatel, startup ecosystem, startup tools, startup growth, startup scaling, startup funding, startup mentorship, startup resources, startup networking, startup success, startup journey, idea to MVP, MVP to PMF, PMF to scale, startup analytics, fractional CXOs, startup partnerships, startup acquisition, startup exit strategy" />
-        <meta property="og:title" content="StartupOS - Revolutionary Startup Operating System for Founders & Entrepreneurs" />
-        <meta property="og:description" content="The most advanced startup platform for founders, built by The Meet Patel. AI-powered co-builders, stage-aware gamification, world-class community. Transform your startup from idea to scale." />
-        <meta property="og:url" content="https://startupos.in" />
-        <meta name="twitter:title" content="StartupOS - Revolutionary Startup Operating System for Founders" />
-        <meta name="twitter:description" content="AI-powered startup platform for founders and entrepreneurs. Built by The Meet Patel. From idea to scale with world-class tools and community." />
-        <link rel="canonical" href="https://startupos.in" />
-      </Helmet>
       
       {/* Hero Section - Revolutionary Storytelling */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">

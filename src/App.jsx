@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
 
 import './App.css';
 import { trackPageView } from './lib/utils';
@@ -61,13 +60,12 @@ function PageTracker() {
 
 function App() {
   return (
-    <HelmetProvider>
-      <Router>
-        <div className="App ultra-gradient-bg min-h-screen">
-          <PageTracker />
-          <UltraNavigation />
-        
-        <Routes>
+    <Router>
+      <div className="App ultra-gradient-bg min-h-screen">
+        <PageTracker />
+        <UltraNavigation />
+      
+      <Routes>
         {/* Main Pages */}
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -121,7 +119,6 @@ function App() {
         <UltraFooter />
         </div>
       </Router>
-    </HelmetProvider>
   );
 }
 
