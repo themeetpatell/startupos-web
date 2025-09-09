@@ -27,6 +27,7 @@ import {
 import WaitlistForm from './WaitlistForm';
 import BlogDashboard from './BlogDashboard';
 import { trackButtonClick, trackNavigation } from '../lib/utils';
+import logoImage from '../assets/logo.png';
 
 import '../App.css';
 
@@ -255,7 +256,7 @@ const UltraNavigation = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img 
-                    src="/src/assets/logo.png" 
+                    src={logoImage} 
                     alt="StartupOS Logo" 
                     className="w-full h-full object-cover"
                   />

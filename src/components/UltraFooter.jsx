@@ -73,6 +73,7 @@ import {
 } from 'lucide-react';
 import WaitlistForm from './WaitlistForm';
 import BlogDashboard from './BlogDashboard';
+import logoImage from '../assets/logo.png';
 
 
 const UltraFooter = () => {
@@ -163,7 +164,7 @@ const UltraFooter = () => {
                   <Link to="/" className="flex items-center">
                     <div className="w-24 h-14 rounded-xl flex items-center justify-center overflow-hidden">
                       <img 
-                        src="/src/assets/logo.png" 
+                        src={logoImage} 
                         alt="StartupOS Logo - Revolutionary Startup Operating System" 
                         className="w-full h-full object-cover"
                       />
