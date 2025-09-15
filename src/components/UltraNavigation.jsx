@@ -206,7 +206,7 @@ const UltraNavigation = () => {
         }}
         className={`fixed top-0 left-0 right-0 z-[9999] transition-all duration-500 ${
           scrolled 
-            ? 'bg-black/80 backdrop-blur-xl border-b border-white/10' 
+            ? 'bg-slate-900/80 backdrop-blur-xl border-b border-blue-500/20' 
             : 'bg-transparent'
         }`}
         onMouseEnter={() => setIsHovering(true)}
@@ -214,15 +214,15 @@ const UltraNavigation = () => {
       >
         {/* Animated Background */}
         <motion.div
-          className="absolute inset-0 bg-gradient-to-r from-black via-blue-900/20 to-black"
+          className="absolute inset-0 bg-gradient-to-r from-slate-900 via-blue-600/20 to-slate-900"
           animate={{
             background: isHovering 
               ? [
-                  "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,130,246,0.3) 50%, rgba(0,0,0,1) 100%)",
-                  "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(147,51,234,0.3) 50%, rgba(0,0,0,1) 100%)",
-                  "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,130,246,0.3) 50%, rgba(0,0,0,1) 100%)"
+                  "linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(59,130,246,0.3) 50%, rgba(15,23,42,1) 100%)",
+                  "linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(6,182,212,0.3) 50%, rgba(15,23,42,1) 100%)",
+                  "linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(59,130,246,0.3) 50%, rgba(15,23,42,1) 100%)"
                 ]
-              : "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,130,246,0.1) 50%, rgba(0,0,0,1) 100%)"
+              : "linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(59,130,246,0.1) 50%, rgba(15,23,42,1) 100%)"
           }}
           transition={{ duration: 2, repeat: isHovering ? Infinity : 0 }}
         />
@@ -292,7 +292,7 @@ const UltraNavigation = () => {
                       animate={{ opacity: 1, y: 0, scale: 1 }}
                       exit={{ opacity: 0, y: 20, scale: 0.95 }}
                       transition={{ duration: 0.3, type: "spring", bounce: 0.2 }}
-                      className="absolute top-full left-0 mt-2 w-80 bg-black/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
+                      className="absolute top-full left-0 mt-2 w-80 bg-slate-900/90 backdrop-blur-xl border border-blue-500/20 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
                     >
                       <div className="p-6 space-y-4">
                         {solutions.map((solution, index) => (
@@ -310,7 +310,7 @@ const UltraNavigation = () => {
                                 <solution.icon className="w-6 h-6 text-white" />
                               </div>
                               <div className="flex-1">
-                                <h3 className="text-white font-semibold group-hover:text-blue-400 transition-colors duration-300">
+                                <h3 className="text-white font-semibold group-hover:text-blue-300 transition-colors duration-300">
                                   {solution.title}
                                 </h3>
                                 <p className="text-white/60 text-sm mt-1 group-hover:text-white/80 transition-colors duration-300">
@@ -352,7 +352,7 @@ const UltraNavigation = () => {
                       animate={{ opacity: 1, y: 0, scale: 1 }}
                       exit={{ opacity: 0, y: 20, scale: 0.95 }}
                       transition={{ duration: 0.3, type: "spring", bounce: 0.2 }}
-                      className="absolute top-full left-0 mt-2 w-80 bg-black/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
+                      className="absolute top-full left-0 mt-2 w-80 bg-slate-900/90 backdrop-blur-xl border border-blue-500/20 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
                     >
                       <div className="p-6 space-y-4">
                         {features.map((feature, index) => (
@@ -370,7 +370,7 @@ const UltraNavigation = () => {
                                 <feature.icon className="w-6 h-6 text-white" />
                               </div>
                               <div className="flex-1">
-                                <h3 className="text-white font-semibold group-hover:text-blue-400 transition-colors duration-300">
+                                <h3 className="text-white font-semibold group-hover:text-blue-300 transition-colors duration-300">
                                   {feature.title}
                                 </h3>
                                 <p className="text-white/60 text-sm mt-1 group-hover:text-white/80 transition-colors duration-300">
@@ -412,7 +412,7 @@ const UltraNavigation = () => {
                       animate={{ opacity: 1, y: 0, scale: 1 }}
                       exit={{ opacity: 0, y: 20, scale: 0.95 }}
                       transition={{ duration: 0.3, type: "spring", bounce: 0.2 }}
-                      className="absolute top-full left-0 mt-2 w-80 bg-black/90 backdrop-blur-xl border border-white/10 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
+                      className="absolute top-full left-0 mt-2 w-80 bg-slate-900/90 backdrop-blur-xl border border-blue-500/20 rounded-2xl shadow-2xl overflow-hidden z-[9998]"
                     >
                       <div className="p-6 space-y-4">
                         {resources.map((resource, index) => (
@@ -430,7 +430,7 @@ const UltraNavigation = () => {
                                 <resource.icon className="w-6 h-6 text-white" />
                               </div>
                               <div className="flex-1">
-                                <h3 className="text-white font-semibold group-hover:text-blue-400 transition-colors duration-300">
+                                <h3 className="text-white font-semibold group-hover:text-blue-300 transition-colors duration-300">
                                   {resource.title}
                                 </h3>
                                 <p className="text-white/60 text-sm mt-1 group-hover:text-white/80 transition-colors duration-300">
@@ -537,7 +537,7 @@ const UltraNavigation = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: "easeInOut" }}
-            className="fixed top-20 left-0 right-0 z-[9997] lg:hidden bg-black/95 backdrop-blur-xl border-b border-white/10 overflow-hidden"
+            className="fixed top-20 left-0 right-0 z-[9997] lg:hidden bg-slate-900/95 backdrop-blur-xl border-b border-blue-500/20 overflow-hidden"
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
               <div className="grid grid-cols-1 gap-8">
@@ -561,7 +561,7 @@ const UltraNavigation = () => {
                             <solution.icon className="w-5 h-5 text-white" />
                           </div>
                           <div>
-                            <h4 className="text-white font-medium group-hover:text-blue-400 transition-colors duration-300">
+                            <h4 className="text-white font-medium group-hover:text-blue-300 transition-colors duration-300">
                               {solution.title}
                             </h4>
                             <p className="text-white/60 text-sm group-hover:text-white/80 transition-colors duration-300">
@@ -594,10 +594,10 @@ const UltraNavigation = () => {
                             <feature.icon className="w-5 h-5 text-white" />
                           </div>
                           <div>
-                            <h4 className="text-white font-medium group-hover:text-blue-400 transition-colors duration-300">
+                            <h4 className="text-white font-medium group-hover:text-blue-300 transition-colors duration-300">
                               {feature.title}
                             </h4>
-                            <p className="text-white/60 text-sm group-hover:text-blue-400 transition-colors duration-300">
+                            <p className="text-white/60 text-sm group-hover:text-blue-300 transition-colors duration-300">
                               {feature.description}
                             </p>
                           </div>
@@ -627,10 +627,10 @@ const UltraNavigation = () => {
                             <resource.icon className="w-5 h-5 text-white" />
                           </div>
                           <div>
-                            <h4 className="text-white font-medium group-hover:text-blue-400 transition-colors duration-300">
+                            <h4 className="text-white font-medium group-hover:text-blue-300 transition-colors duration-300">
                               {resource.title}
                             </h4>
-                            <p className="text-white/60 text-sm group-hover:text-blue-400 transition-colors duration-300">
+                            <p className="text-white/60 text-sm group-hover:text-blue-300 transition-colors duration-300">
                               {resource.description}
                             </p>
                           </div>

@@ -147,9 +147,9 @@ const UltraFooter = () => {
   ];
 
   return (
-    <footer className="relative bg-slate-900 border-t border-white/10">
+    <footer className="relative bg-slate-900 border-t border-blue-500/20">
       {/* Background Pattern */}
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-slate-800/50 to-slate-900" />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-blue-900/20 to-slate-900" />
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
@@ -187,7 +187,7 @@ const UltraFooter = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email"
-                    className="flex-1 px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-green-400 transition-colors"
+                    className="flex-1 px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-blue-400 transition-colors"
                   />
                   <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -205,7 +205,7 @@ const UltraFooter = () => {
                       initial={{ opacity: 0, y: 10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: 10 }}
-                      className="flex items-center space-x-2 text-green-400 text-sm"
+                      className="flex items-center space-x-2 text-blue-400 text-sm"
                     >
                       <CheckCircle className="w-4 h-4" />
                       <span>Successfully subscribed!</span>
@@ -225,7 +225,7 @@ const UltraFooter = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="ultra-glass p-6 rounded-xl text-center"
                 >
-                  <stat.icon className="w-8 h-8 text-green-400 mx-auto mb-3" />
+                  <stat.icon className="w-8 h-8 text-blue-400 mx-auto mb-3" />
                   <div className="text-2xl font-bold text-white mb-1">{stat.number}</div>
                   <p className="text-white/60 text-sm">{stat.label}</p>
                 </motion.div>
@@ -273,7 +273,7 @@ const UltraFooter = () => {
           </div>
 
           {/* Bottom Section */}
-          <div className="border-t border-white/10 pt-8">
+          <div className="border-t border-blue-500/20 pt-8">
             <div className="flex flex-col lg:flex-row items-center justify-between space-y-6 lg:space-y-0">
               {/* Copyright & Links */}
               <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
@@ -339,10 +339,10 @@ const UltraFooter = () => {
       </div>
 
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-2 h-2 bg-green-400 rounded-full opacity-60 animate-pulse" />
-      <div className="absolute top-40 right-20 w-1 h-1 bg-blue-400 rounded-full opacity-40 animate-pulse delay-1000" />
-      <div className="absolute bottom-40 left-20 w-1 h-1 bg-purple-400 rounded-full opacity-50 animate-pulse delay-2000" />
-      <div className="absolute bottom-20 right-10 w-2 h-2 bg-emerald-400 rounded-full opacity-30 animate-pulse delay-1500" />
+      <div className="absolute top-20 left-10 w-2 h-2 bg-blue-400 rounded-full opacity-60 animate-pulse" />
+      <div className="absolute top-40 right-20 w-1 h-1 bg-cyan-400 rounded-full opacity-40 animate-pulse delay-1000" />
+      <div className="absolute bottom-40 left-20 w-1 h-1 bg-blue-500 rounded-full opacity-50 animate-pulse delay-2000" />
+      <div className="absolute bottom-20 right-10 w-2 h-2 bg-blue-300 rounded-full opacity-30 animate-pulse delay-1500" />
 
       {/* Blog Dashboard */}
       <BlogDashboard

@@ -187,7 +187,7 @@ const PersonalPage = () => {
       
       {/* Hero Section */}
       <section className="py-20 relative overflow-hidden">
-                                <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-blue-900/20 to-slate-900" />
+                                <div className="absolute inset-0 bg-gradient-to-b from-slate-900 via-blue-600/20 to-slate-900" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -198,7 +198,7 @@ const PersonalPage = () => {
           >
             {/* Profile Image */}
             <div className="mb-8">
-                                      <div className="w-32 h-32 mx-auto bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full flex items-center justify-center mb-6">
+                                      <div className="w-32 h-32 mx-auto bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full flex items-center justify-center mb-6">
                 <span className="text-white text-4xl font-bold">MP</span>
               </div>
             </div>
@@ -255,7 +255,7 @@ const PersonalPage = () => {
                 onClick={() => setIsContactFormOpen(true)}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors"
+                className="bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
               >
                 Get In Touch
               </motion.button>
@@ -284,7 +284,7 @@ const PersonalPage = () => {
                 whileTap={{ scale: 0.95 }}
                 className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all duration-300 whitespace-nowrap ${
                   activeTab === tab.id
-                    ? 'bg-blue-500 text-white'
+                    ? 'bg-blue-600 text-white'
                     : 'text-white/60 hover:text-white hover:bg-white/10'
                 }`}
               >
@@ -332,7 +332,7 @@ const PersonalPage = () => {
                       <h3 className="text-xl font-semibold text-white mb-4">Interests</h3>
                       <div className="flex flex-wrap gap-2 mb-8">
                         {personalInfo.interests.map((interest, index) => (
-                          <span key={index} className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm">
+                          <span key={index} className="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full text-sm">
                             {interest}
                           </span>
                         ))}
@@ -340,15 +340,15 @@ const PersonalPage = () => {
                       <h3 className="text-xl font-semibold text-white mb-4">Quick Stats</h3>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-2xl font-bold text-blue-400">8+</div>
+                          <div className="text-2xl font-bold text-blue-500">8+</div>
                           <div className="text-white/60 text-sm">Years Experience</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-2xl font-bold text-blue-400">50+</div>
+                          <div className="text-2xl font-bold text-blue-500">50+</div>
                           <div className="text-white/60 text-sm">Startups Mentored</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-2xl font-bold text-blue-400">$10M+</div>
+                          <div className="text-2xl font-bold text-blue-500">$10M+</div>
                           <div className="text-white/60 text-sm">Revenue Generated</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
@@ -377,11 +377,11 @@ const PersonalPage = () => {
                         <div className="flex items-start justify-between mb-4">
                           <div>
                             <h3 className="text-xl font-semibold text-white">{exp.position}</h3>
-                            <p className="text-emerald-400 font-medium">{exp.company}</p>
+                            <p className="text-blue-400 font-medium">{exp.company}</p>
                             <p className="text-white/50 text-sm">{exp.duration}</p>
                           </div>
                           <div className="text-right">
-                            <span className="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-sm">
+                            <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm">
                               {exp.duration.split(' - ')[1]}
                             </span>
                           </div>
@@ -390,7 +390,7 @@ const PersonalPage = () => {
                         <ul className="space-y-2">
                           {exp.achievements.map((achievement, idx) => (
                             <li key={idx} className="flex items-start space-x-2">
-                              <CheckCircle className="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0" />
+                              <CheckCircle className="w-4 h-4 text-blue-400 mt-0.5 flex-shrink-0" />
                               <span className="text-white/80 text-sm">{achievement}</span>
                             </li>
                           ))}
@@ -408,7 +408,7 @@ const PersonalPage = () => {
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
-                        <Code className="w-5 h-5 mr-2 text-emerald-400" />
+                        <Code className="w-5 h-5 mr-2 text-blue-400" />
                         Technical Skills
                       </h3>
                       <div className="flex flex-wrap gap-2">
@@ -421,7 +421,7 @@ const PersonalPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
-                        <TrendingUp className="w-5 h-5 mr-2 text-emerald-400" />
+                        <TrendingUp className="w-5 h-5 mr-2 text-blue-400" />
                         Business Skills
                       </h3>
                       <div className="flex flex-wrap gap-2">
@@ -434,7 +434,7 @@ const PersonalPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-semibold text-white mb-4 flex items-center">
-                        <Users className="w-5 h-5 mr-2 text-emerald-400" />
+                        <Users className="w-5 h-5 mr-2 text-blue-400" />
                         Leadership Skills
                       </h3>
                       <div className="flex flex-wrap gap-2">
@@ -484,7 +484,7 @@ const PersonalPage = () => {
                           href={project.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-emerald-400 hover:text-emerald-300 text-sm font-medium flex items-center"
+                          className="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center"
                         >
                           View Project
                           <ExternalLink className="w-4 h-4 ml-1" />
@@ -545,7 +545,7 @@ const PersonalPage = () => {
                               <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                className="flex-1 bg-emerald-500 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-emerald-600 transition-colors"
+                                className="flex-1 bg-blue-600 text-white py-2 px-4 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
                               >
                                 Read Now
                               </motion.button>
@@ -609,12 +609,12 @@ const PersonalPage = () => {
                         className="bg-white/5 rounded-lg p-6"
                       >
                         <div className="flex items-start space-x-4">
-                          <div className="w-12 h-12 bg-emerald-500/20 rounded-full flex items-center justify-center flex-shrink-0">
-                            <Trophy className="w-6 h-6 text-emerald-400" />
+                          <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center flex-shrink-0">
+                            <Trophy className="w-6 h-6 text-blue-400" />
                           </div>
                           <div>
                             <h3 className="text-lg font-semibold text-white">{achievement.title}</h3>
-                            <p className="text-emerald-400 text-sm font-medium">{achievement.year}</p>
+                            <p className="text-blue-400 text-sm font-medium">{achievement.year}</p>
                             <p className="text-white/70 text-sm mt-2">{achievement.description}</p>
                           </div>
                         </div>
@@ -640,10 +640,10 @@ const PersonalPage = () => {
                         <div className="flex items-start justify-between">
                           <div>
                             <h3 className="text-lg font-semibold text-white">{event.event}</h3>
-                            <p className="text-emerald-400 font-medium">{event.topic}</p>
+                            <p className="text-blue-400 font-medium">{event.topic}</p>
                             <p className="text-white/50 text-sm">{event.location}</p>
                           </div>
-                          <span className="bg-emerald-500/20 text-emerald-400 px-3 py-1 rounded-full text-sm">
+                          <span className="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm">
                             {event.year}
                           </span>
                         </div>
@@ -669,14 +669,14 @@ const PersonalPage = () => {
                         <div className="flex items-start justify-between">
                           <div>
                             <h3 className="text-lg font-semibold text-white">{pub.title}</h3>
-                            <p className="text-emerald-400 text-sm">{pub.platform} • {pub.year}</p>
+                            <p className="text-blue-400 text-sm">{pub.platform} • {pub.year}</p>
                             <p className="text-white/50 text-sm">{pub.views} views</p>
                           </div>
                           <a
                             href={pub.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-emerald-400 hover:text-emerald-300 text-sm font-medium flex items-center"
+                            className="text-blue-400 hover:text-blue-300 text-sm font-medium flex items-center"
                           >
                             Read Article
                             <ExternalLink className="w-4 h-4 ml-1" />
@@ -697,19 +697,19 @@ const PersonalPage = () => {
                       <h3 className="text-xl font-semibold text-white mb-6">Mentorship Impact</h3>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-3xl font-bold text-emerald-400">{personalInfo.mentorship.startups}</div>
+                          <div className="text-3xl font-bold text-blue-500">{personalInfo.mentorship.startups}</div>
                           <div className="text-white/60 text-sm">Startups Mentored</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-3xl font-bold text-emerald-400">{personalInfo.mentorship.entrepreneurs}</div>
+                          <div className="text-3xl font-bold text-blue-500">{personalInfo.mentorship.entrepreneurs}</div>
                           <div className="text-white/60 text-sm">Entrepreneurs Helped</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-3xl font-bold text-emerald-400">{personalInfo.mentorship.successRate}</div>
+                          <div className="text-3xl font-bold text-blue-500">{personalInfo.mentorship.successRate}</div>
                           <div className="text-white/60 text-sm">Success Rate</div>
                         </div>
                         <div className="bg-white/5 rounded-lg p-4 text-center">
-                          <div className="text-3xl font-bold text-emerald-400">8+</div>
+                          <div className="text-3xl font-bold text-blue-500">8+</div>
                           <div className="text-white/60 text-sm">Years Mentoring</div>
                         </div>
                       </div>
@@ -719,7 +719,7 @@ const PersonalPage = () => {
                       <div className="space-y-3">
                         {personalInfo.mentorship.focus.map((area, index) => (
                           <div key={index} className="flex items-center space-x-3">
-                            <CheckCircle className="w-5 h-5 text-emerald-400" />
+                            <CheckCircle className="w-5 h-5 text-blue-400" />
                             <span className="text-white/80">{area}</span>
                           </div>
                         ))}
@@ -733,7 +733,7 @@ const PersonalPage = () => {
                           onClick={() => setIsContactFormOpen(true)}
                           whileHover={{ scale: 1.05 }}
                           whileTap={{ scale: 0.95 }}
-                          className="bg-emerald-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-emerald-600 transition-colors"
+                          className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                         >
                           Request Mentorship
                         </motion.button>
@@ -778,7 +778,7 @@ const PersonalPage = () => {
                   <label className="block text-white/80 text-sm mb-2">Name</label>
                   <input
                     type="text"
-                    className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                    className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="Your name"
                   />
                 </div>
@@ -786,7 +786,7 @@ const PersonalPage = () => {
                   <label className="block text-white/80 text-sm mb-2">Email</label>
                   <input
                     type="email"
-                    className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                    className="w-full bg-white/5 border border-white/10 rounded-lg p-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -802,7 +802,7 @@ const PersonalPage = () => {
                   type="submit"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
-                  className="w-full bg-emerald-500 text-white py-3 rounded-lg font-semibold hover:bg-emerald-600 transition-colors"
+                  className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
                 >
                   Send Message
                 </motion.button>
