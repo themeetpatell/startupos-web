@@ -225,10 +225,10 @@ const PMFtoScale = () => {
     }
   ];
 
-  const startupOSAdvantages = [
+  const biggbizzAdvantages = [
     {
       title: "Scale-Ready Intelligence",
-      description: "StartupOS understands the unique challenges of scaling and provides stage-specific guidance.",
+      description: "Biggbizz understands the unique challenges of scaling and provides stage-specific guidance.",
       features: [
         "Scaling readiness assessment and planning",
         "Team building and culture preservation frameworks",
@@ -265,21 +265,21 @@ const PMFtoScale = () => {
     {
       founder: "James Wilson",
       company: "TechFlow",
-      story: "James had achieved PMF but was struggling to scale his team from 10 to 50 people. StartupOS helped him build a systematic hiring process and preserve his company culture. He went from 3 months to fill roles to 2 weeks.",
+      story: "James had achieved PMF but was struggling to scale his team from 10 to 50 people. Biggbizz helped him build a systematic hiring process and preserve his company culture. He went from 3 months to fill roles to 2 weeks.",
       result: "Scaled from $2M to $20M ARR in 18 months",
       icon: Users
     },
     {
       founder: "Sarah Kim",
       company: "DataSync",
-      story: "Sarah was scaling revenue but losing money on every customer. StartupOS helped her understand her unit economics and optimize her pricing model. She went from negative margins to 40% gross margins.",
+      story: "Sarah was scaling revenue but losing money on every customer. Biggbizz helped her understand her unit economics and optimize her pricing model. She went from negative margins to 40% gross margins.",
       result: "Achieved profitability while growing 300% YoY",
       icon: DollarSign
     },
     {
       founder: "Michael Chen",
       company: "CloudScale",
-      story: "Michael's product team was slowing down as they grew. StartupOS helped him implement scalable development processes and build a proper engineering culture. Velocity increased 3x while quality improved.",
+      story: "Michael's product team was slowing down as they grew. Biggbizz helped him implement scalable development processes and build a proper engineering culture. Velocity increased 3x while quality improved.",
       result: "Product team efficiency improved 3x",
       icon: Code
     }
@@ -526,7 +526,7 @@ const PMFtoScale = () => {
                 </div>
                 
                                   <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
-                  <h4 className="text-blue-400 font-semibold mb-2">StartupOS Solution:</h4>
+                  <h4 className="text-blue-400 font-semibold mb-2">Biggbizz Solution:</h4>
                   <p className="text-white/80 text-sm">{mistake.solution}</p>
                 </div>
               </motion.div>
@@ -535,7 +535,7 @@ const PMFtoScale = () => {
         </div>
       </section>
 
-      {/* StartupOS Advantages */}
+      {/* Biggbizz Advantages */}
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -545,15 +545,15 @@ const PMFtoScale = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why StartupOS is Different
+              Why Biggbizz is Different
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Unlike generic business tools, StartupOS is built specifically for scaling startups.
+              Unlike generic business tools, Biggbizz is built specifically for scaling startups.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {startupOSAdvantages.map((advantage, index) => (
+            {biggbizzAdvantages.map((advantage, index) => (
               <motion.div
                 key={advantage.title}
                 initial={{ opacity: 0, y: 50 }}
@@ -592,7 +592,7 @@ const PMFtoScale = () => {
               Success Stories
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Real founders who used StartupOS to scale successfully.
+              Real founders who used Biggbizz to scale successfully.
             </p>
           </motion.div>
 

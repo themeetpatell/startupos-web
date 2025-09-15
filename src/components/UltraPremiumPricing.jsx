@@ -174,8 +174,8 @@ const UltraPremiumPricing = () => {
       answer: "Our AI Copilots are domain-specific AI agents trained on startup best practices and your company data. They don't just provide suggestions—they execute tasks like financial modeling, hiring workflows, and go-to-market strategies. Each copilot integrates directly into your workflows and learns from your team's patterns."
     },
     {
-      question: "What makes StartupOS different from other startup tools?",
-      answer: "StartupOS is the only platform that grows with your startup. Unlike static tools, we unlock new features and capabilities as you hit growth milestones. Our AI copilots execute tasks rather than just providing advice, and our fractional CXO network provides expert leadership on-demand."
+      question: "What makes Biggbizz different from other startup tools?",
+      answer: "Biggbizz is the only platform that grows with your startup. Unlike static tools, we unlock new features and capabilities as you hit growth milestones. Our AI copilots execute tasks rather than just providing advice, and our fractional CXO network provides expert leadership on-demand."
     },
     {
       question: "How does the fractional CXO matching work?",
@@ -440,7 +440,7 @@ const UltraPremiumPricing = () => {
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-white mb-4">Premium Add-ons</h3>
             <p className="text-white/70 max-w-2xl mx-auto">
-              Enhance your StartupOS experience with these premium add-ons available for all plans.
+              Enhance your Biggbizz experience with these premium add-ons available for all plans.
             </p>
           </div>
 
@@ -539,7 +539,7 @@ const UltraPremiumPricing = () => {
           <div className="text-center mb-12">
             <h3 className="text-3xl font-bold text-white mb-4">Frequently Asked Questions</h3>
             <p className="text-white/70 max-w-2xl mx-auto">
-              Everything you need to know about StartupOS pricing and features.
+              Everything you need to know about Biggbizz pricing and features.
             </p>
           </div>
 

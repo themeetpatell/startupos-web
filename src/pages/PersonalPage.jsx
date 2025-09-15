@@ -15,9 +15,9 @@ const PersonalPage = () => {
   const personalInfo = {
     name: "The Meet Patel",
     title: "Founder & CEO",
-    company: "StartupOS",
+    company: "Biggbizz",
     location: "Ahmedabad, India",
-    email: "meet@startupos.com",
+    email: "meet@biggbizz.com",
     linkedin: "https://www.linkedin.com/company/the-startupos/",
     twitter: "https://x.com/the_startupos",
     github: "https://github.com/startupos",
@@ -26,7 +26,7 @@ const PersonalPage = () => {
     
     bio: "Serial entrepreneur and startup ecosystem builder with over 8 years of experience in building and scaling technology companies. Passionate about helping startups succeed through innovative solutions and strategic guidance.",
     
-    about: "The Meet Patel is a visionary entrepreneur and startup ecosystem builder based in Mumbai, India. With over 8 years of experience in the technology sector, he has successfully founded and scaled multiple startups, helping hundreds of entrepreneurs build successful businesses. His expertise spans across product development, growth marketing, fundraising, and team building. Through StartupOS, he's creating a comprehensive platform that empowers startups at every stage of their journey.",
+    about: "The Meet Patel is a visionary entrepreneur and startup ecosystem builder based in Mumbai, India. With over 8 years of experience in the technology sector, he has successfully founded and scaled multiple startups, helping hundreds of entrepreneurs build successful businesses. His expertise spans across product development, growth marketing, fundraising, and team building. Through Biggbizz, he's creating a comprehensive platform that empowers startups at every stage of their journey.",
     
     experience: [
       {
@@ -128,10 +128,10 @@ const PersonalPage = () => {
     
     projects: [
       {
-        name: "StartupOS Platform",
+        name: "Biggbizz Platform",
         description: "Comprehensive startup ecosystem platform with 50+ integrated tools and services.",
         tech: ["React", "Node.js", "AWS", "MongoDB"],
-        link: "https://www.startupos.in",
+        link: "https://www.biggbizz.com",
         status: "Live"
       }
     ],

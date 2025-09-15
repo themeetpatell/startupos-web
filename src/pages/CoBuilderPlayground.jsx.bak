@@ -244,7 +244,7 @@ const CoBuilderPlayground = () => {
   ];
 
   const sampleCode = `// Example: AI Co-Builder Enhancement
-import { AIBuilder } from '@startupos/ai-builder';
+import { AIBuilder } from '@biggbizz/ai-builder';
 
 class EnhancedAIBuilder extends AIBuilder {
   constructor() {
@@ -297,7 +297,7 @@ export default EnhancedAIBuilder;`;
               <span className="ultra-text-gradient">Co-Builder Playground</span>
             </h1>
             <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed mb-12">
-              Contribute to building StartupOS itself! Join our community of developers, 
+              Contribute to building Biggbizz itself! Join our community of developers, 
               designers, and startup enthusiasts in creating the future of startup tools.
             </p>
 
@@ -615,7 +615,7 @@ export default EnhancedAIBuilder;`;
             </h2>
             <p className="text-xl text-white/70 mb-8">
               Join our community of developers and help build the future of startup tools. 
-              Every contribution makes StartupOS better for founders worldwide.
+              Every contribution makes Biggbizz better for founders worldwide.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">

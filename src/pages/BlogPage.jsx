@@ -206,7 +206,7 @@ const BlogPage = () => {
             className="text-center mb-16"
           >
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="ultra-text-gradient">StartupOS Blog</span>
+              <span className="ultra-text-gradient">Biggbizz Blog</span>
             </h1>
             <p className="text-xl text-white/70 max-w-3xl mx-auto mb-8">
               Insights, strategies, and stories from the startup world. Learn from successful founders, 

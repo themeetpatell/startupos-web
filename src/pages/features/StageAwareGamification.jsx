@@ -604,7 +604,7 @@ const StageAwareGamification = () => {
             </div>
 
             <motion.a
-              href="https://startupos-one.vercel.app/signup"
+              href="https://biggbizz.com/signup"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

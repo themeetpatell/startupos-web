@@ -56,14 +56,14 @@ const WaitlistForm = ({
       await new Promise(resolve => setTimeout(resolve, 1500));
       
       // Store in localStorage for demo purposes
-      const existingWaitlist = JSON.parse(localStorage.getItem('startupos_waitlist') || '[]');
+      const existingWaitlist = JSON.parse(localStorage.getItem('biggbizz_waitlist') || '[]');
       const newEntry = {
         ...formData,
         id: Date.now(),
         submittedAt: new Date().toISOString(),
         status: 'pending'
       };
-      localStorage.setItem('startupos_waitlist', JSON.stringify([...existingWaitlist, newEntry]));
+      localStorage.setItem('biggbizz_waitlist', JSON.stringify([...existingWaitlist, newEntry]));
       
       // Track waitlist signup
       trackWaitlistSignup('waitlist_form');
@@ -151,7 +151,7 @@ const WaitlistForm = ({
                       <Rocket className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h2 className="text-2xl font-bold text-white">Join the StartupOS Waitlist</h2>
+                      <h2 className="text-2xl font-bold text-white">Join the Biggbizz Waitlist</h2>
                       <p className="text-blue-300">Be among the first to experience the future of startup building</p>
                     </div>
                   </div>
@@ -177,11 +177,11 @@ const WaitlistForm = ({
                     </div>
                     <h3 className="text-2xl font-bold text-white mb-3">Welcome to the Waitlist! 🚀</h3>
                     <p className="text-blue-300 mb-6">
-                      You've successfully joined the StartupOS waitlist. We'll notify you as soon as we're ready to onboard new users.
+                      You've successfully joined the Biggbizz waitlist. We'll notify you as soon as we're ready to onboard new users.
                     </p>
                     <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
                       <p className="text-blue-300 text-sm">
-                        <strong>What's next?</strong> We'll send you exclusive updates, early access opportunities, and insights about StartupOS development.
+                        <strong>What's next?</strong> We'll send you exclusive updates, early access opportunities, and insights about Biggbizz development.
                       </p>
                     </div>
                   </motion.div>
@@ -405,7 +405,7 @@ const WaitlistForm = ({
                         <span>What you'll get:</span>
                       </h4>
                       <ul className="text-xs text-blue-300/80 space-y-1">
-                        <li>• Early access to StartupOS platform</li>
+                        <li>• Early access to Biggbizz platform</li>
                         <li>• Exclusive founder resources and insights</li>
                         <li>• Priority onboarding and support</li>
                         <li>• Special pricing for early adopters</li>

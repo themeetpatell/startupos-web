@@ -48,14 +48,14 @@ const ContactPage = () => {
       icon: Mail,
       title: "Email Us",
       description: "Get in touch via email for detailed inquiries",
-      contact: "hello@startupos.in",
+      contact: "hello@biggbizz.com",
       action: "Send Email",
       gradient: "from-blue-500 to-cyan-500"
     },
     {
       icon: Phone,
       title: "Call Us",
-      description: "Speak directly with the StartupOS team",
+      description: "Speak directly with the Biggbizz team",
       contact: "+971 54 754 1414",
       action: "Call Now",
       gradient: "from-green-500 to-emerald-500"
@@ -104,7 +104,7 @@ const ContactPage = () => {
 
   const faqs = [
     {
-      question: "How quickly can I get started with StartupOS?",
+      question: "How quickly can I get started with Biggbizz?",
       answer: "You can get started immediately with our free trial. Full onboarding typically takes 24-48 hours with dedicated support."
     },
     {
@@ -116,7 +116,7 @@ const ContactPage = () => {
       answer: "We offer 24/7 support via chat, email, and phone, plus dedicated customer success managers for premium plans."
     },
     {
-      question: "Can I integrate StartupOS with existing tools?",
+      question: "Can I integrate Biggbizz with existing tools?",
       answer: "Absolutely! We have 500+ integrations and a robust API for custom connections with your existing tech stack."
     }
   ];
@@ -395,7 +395,7 @@ const ContactPage = () => {
               Frequently Asked <span className="ultra-text-gradient">Questions</span>
             </h2>
             <p className="text-xl text-white/70">
-              Quick answers to common questions about StartupOS.
+              Quick answers to common questions about Biggbizz.
             </p>
           </motion.div>
 

@@ -1,7 +1,7 @@
 // Blog Database Structure and Management
 export const blogDatabase = {
   // Initialize with sample data
-  blogs: JSON.parse(localStorage.getItem('startupos_blogs')) || [
+  blogs: JSON.parse(localStorage.getItem('biggbizz_blogs')) || [
     {
       id: 1,
       title: "The Future of Startup Building: AI-Powered Growth",
@@ -605,7 +605,7 @@ Remember: Communities are built on trust, value, and genuine relationships. Focu
 
   // Save to localStorage
   saveToStorage() {
-    localStorage.setItem('startupos_blogs', JSON.stringify(this.blogs));
+    localStorage.setItem('biggbizz_blogs', JSON.stringify(this.blogs));
   },
 
   // Get blog statistics

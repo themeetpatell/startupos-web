@@ -177,7 +177,7 @@ const UltraNavigation = () => {
     },
     {
       title: "Co-Builder Playground",
-      description: "Contribute to building StartupOS live",
+      description: "Contribute to building Biggbizz live",
       icon: Play,
       href: "/co-builder-playground",
       color: "from-cyan-500 to-blue-500"
@@ -257,7 +257,7 @@ const UltraNavigation = () => {
                 >
                   <img 
                     src={logoImage} 
-                    alt="StartupOS Logo" 
+                    alt="Biggbizz Logo" 
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -481,7 +481,7 @@ const UltraNavigation = () => {
             {/* CTA Buttons */}
             <div className="hidden lg:flex items-center space-x-4">
               <motion.a
-                href="https://app.startupos.in"
+                href="https://app.biggbizz.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
@@ -692,7 +692,7 @@ const UltraNavigation = () => {
 
                 
                 <motion.a
-                  href="https://app.startupos.in"
+                  href="https://app.biggbizz.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.02 }}

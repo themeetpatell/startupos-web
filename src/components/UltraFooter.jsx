@@ -165,7 +165,7 @@ const UltraFooter = () => {
                     <div className="w-24 h-14 rounded-xl flex items-center justify-center overflow-hidden">
                       <img 
                         src={logoImage} 
-                        alt="StartupOS Logo - Revolutionary Startup Operating System" 
+                        alt="Biggbizz Logo - Revolutionary Startup Operating System" 
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -278,7 +278,7 @@ const UltraFooter = () => {
               {/* Copyright & Links */}
               <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-8">
                 <p className="text-white/60 text-sm">
-                  © 2025 StartupOS. All rights reserved.
+                  © 2025 Biggbizz. All rights reserved.
                 </p>
                 <div className="flex items-center space-x-6">
                   <motion.div

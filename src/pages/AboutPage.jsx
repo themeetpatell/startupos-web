@@ -18,7 +18,7 @@ const AboutPage = () => {
       bio: "A part business mind, part startup therapist, and full-time problem-solver. Serial entrepreneur who's built and scaled startups from college dorm to serving hundreds of people. Expert in turning chaos into streamlined growth machines.",
       image: meetPatelImage,
       achievements: ["5+ Successful startups led", "500+ team members scaled", "3X Founder"],
-      quote: "Every startup deserves the StartupOS to become extraordinary Startup."
+      quote: "Every startup deserves the Biggbizz to become extraordinary Startup."
     },
     {
       name: "Drashty Soni",
@@ -338,7 +338,7 @@ const AboutPage = () => {
               Ready to <span className="ultra-text-gradient">Scale Your Startup</span>?
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto mb-8">
-              Join thousands of startups already using StartupOS to accelerate their growth 
+              Join thousands of startups already using Biggbizz to accelerate their growth 
               and achieve their goals faster than ever before.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">

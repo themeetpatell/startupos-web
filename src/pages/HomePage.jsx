@@ -191,7 +191,7 @@ const HomePage = () => {
               <br />
               <span className="text-red-400 font-semibold">The startup journey is harder than anyone imagined - but it doesn't have to be.</span>
               <br />
-              <span className="text-blue-400 font-semibold">StartupOS gives founders, entrepreneurs, and startup teams the ultimate arsenal to succeed.</span>
+              <span className="text-blue-400 font-semibold">Biggbizz gives founders, entrepreneurs, and startup teams the ultimate arsenal to succeed.</span>
             </p>
           </motion.div>
 
@@ -518,7 +518,7 @@ const HomePage = () => {
               </span>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto">
-              This is StartupOS. The revolutionary platform that turns startup failure into startup success.
+              This is Biggbizz. The revolutionary platform that turns startup failure into startup success.
             </p>
           </motion.div>
 
@@ -609,10 +609,10 @@ const HomePage = () => {
                   <Users className="w-12 h-12 text-white" />
                 </div>
                 <h2 className="text-4xl font-bold text-white mb-4">
-                  🚀 Join the StartupOS Community
+                  🚀 Join the Biggbizz Community
                 </h2>
                 <p className="text-xl text-white/80 mb-8 leading-relaxed max-w-3xl mx-auto">
-                  We're building the StartupOS space for founders, operators, and startup talent — live AMAs, execution frameworks, insider resources, and real collaboration.
+                  We're building the Biggbizz space for founders, operators, and startup talent — live AMAs, execution frameworks, insider resources, and real collaboration.
                 </p>
                 <p className="text-lg text-green-400 font-semibold mb-8">
                   Tap in, build faster, scale smarter.

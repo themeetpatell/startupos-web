@@ -155,7 +155,7 @@ const UltraFeatures = () => {
           </h2>
 
           <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed">
-            From idea to IPO, StartupOS provides the systems, roadmaps, insights, and network you need 
+            From idea to IPO, Biggbizz provides the systems, roadmaps, insights, and network you need 
             at every stage of your startup's journey.
           </p>
         </motion.div>

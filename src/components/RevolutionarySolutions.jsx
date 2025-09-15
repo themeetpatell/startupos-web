@@ -342,7 +342,7 @@ const RevolutionarySolutions = () => {
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-white mb-4">Platform That Grows With You</h3>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Unlike static tools, StartupOS evolves with your startup, unlocking new features 
+              Unlike static tools, Biggbizz evolves with your startup, unlocking new features 
               and capabilities at each growth stage.
             </p>
           </div>
@@ -382,7 +382,7 @@ const RevolutionarySolutions = () => {
           <div className="text-center mb-16">
             <h3 className="text-4xl font-bold text-white mb-4">Built for Every Stakeholder</h3>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              StartupOS serves the entire startup ecosystem, creating value for founders, 
+              Biggbizz serves the entire startup ecosystem, creating value for founders, 
               executives, investors, and communities.
             </p>
           </div>
@@ -431,7 +431,7 @@ const RevolutionarySolutions = () => {
             </div>
             
             <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Join thousands of startups already using StartupOS
+              Join thousands of startups already using Biggbizz
             </h3>
             
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">

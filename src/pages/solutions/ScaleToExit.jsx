@@ -102,10 +102,10 @@ const ScaleToExit = () => {
     }
   ];
 
-  const startupOSAdvantages = [
+  const biggbizzAdvantages = [
     {
       title: "Exit Intelligence Platform",
-      description: "Unlike generic tools, StartupOS provides exit-specific intelligence and preparation frameworks.",
+      description: "Unlike generic tools, Biggbizz provides exit-specific intelligence and preparation frameworks.",
       features: [
         "Real-time exit market analysis",
         "Company valuation optimization",
@@ -145,7 +145,7 @@ const ScaleToExit = () => {
     {
       founder: "Sarah Chen",
       company: "TechFlow Solutions",
-      story: "Used StartupOS exit intelligence to identify the perfect acquisition opportunity. The AI platform helped us optimize our metrics and positioning, resulting in a 3x higher exit valuation than initially expected.",
+      story: "Used Biggbizz exit intelligence to identify the perfect acquisition opportunity. The AI platform helped us optimize our metrics and positioning, resulting in a 3x higher exit valuation than initially expected.",
       result: "Exited for $150M after 18 months of preparation"
     },
     {
@@ -157,7 +157,7 @@ const ScaleToExit = () => {
     {
       founder: "Jennifer Park",
       company: "CloudScale Systems",
-      story: "StartupOS helped us navigate a complex IPO process. The platform's guidance on timing, preparation, and investor relations was invaluable in achieving a successful public offering.",
+      story: "Biggbizz helped us navigate a complex IPO process. The platform's guidance on timing, preparation, and investor relations was invaluable in achieving a successful public offering.",
       result: "IPO'd at $2B valuation with 40% first-day pop"
     }
   ];
@@ -412,7 +412,7 @@ const ScaleToExit = () => {
         </div>
       </section>
 
-      {/* StartupOS Advantages */}
+      {/* Biggbizz Advantages */}
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -422,7 +422,7 @@ const ScaleToExit = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why StartupOS for Exit Success
+              Why Biggbizz for Exit Success
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
               Unlike generic tools, we provide exit-specific intelligence and proven frameworks.
@@ -430,7 +430,7 @@ const ScaleToExit = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {startupOSAdvantages.map((advantage, index) => (
+            {biggbizzAdvantages.map((advantage, index) => (
               <motion.div
                 key={advantage.title}
                 initial={{ opacity: 0, y: 50 }}
@@ -468,7 +468,7 @@ const ScaleToExit = () => {
               Exit Success Stories
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Real founders who used StartupOS to achieve successful exits.
+              Real founders who used Biggbizz to achieve successful exits.
             </p>
           </motion.div>
 

@@ -124,7 +124,7 @@ const JobDetailPage = () => {
     const mockJob = {
       id: id || 'senior-frontend-developer',
       title: "Senior Frontend Developer",
-      companyName: "StartupOS",
+      companyName: "Biggbizz",
       location: "San Francisco, CA (Hybrid)",
       type: "Full-time",
       experience: "3-5 years",
@@ -201,18 +201,18 @@ const JobDetailPage = () => {
         "Stay current with industry trends and best practices"
       ],
       company: {
-        name: "StartupOS",
-        description: "StartupOS is the revolutionary platform that transforms how startups build, scale, and succeed. We provide AI-powered tools, ecosystem access, and strategic guidance to help founders navigate every stage of their journey.",
+        name: "Biggbizz",
+        description: "Biggbizz is the revolutionary platform that transforms how startups build, scale, and succeed. We provide AI-powered tools, ecosystem access, and strategic guidance to help founders navigate every stage of their journey.",
         size: "50-100 employees",
         industry: "SaaS / Startup Ecosystem",
         founded: "2022",
         location: "San Francisco, CA",
-        website: "https://www.startupos.in",
+        website: "https://www.biggbizz.com",
         logo: "/api/placeholder/100/100"
       },
       team: {
         name: "Engineering",
-        description: "Our engineering team is responsible for building the core platform that powers StartupOS. We work on everything from the frontend user interface to the backend APIs and infrastructure.",
+        description: "Our engineering team is responsible for building the core platform that powers Biggbizz. We work on everything from the frontend user interface to the backend APIs and infrastructure.",
         size: "15 engineers",
         tech: ["React", "TypeScript", "Node.js", "Python", "AWS", "PostgreSQL"]
       }

@@ -287,7 +287,7 @@ const WebinarsPage = () => {
             </motion.div>
 
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              <span className="ultra-text-gradient">StartupOS Webinars</span>
+              <span className="ultra-text-gradient">Biggbizz Webinars</span>
             </h1>
             <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed mb-12">
               Learn from successful founders, industry experts, and our team of startup advisors. 

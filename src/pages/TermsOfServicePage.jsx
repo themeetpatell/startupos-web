@@ -114,7 +114,7 @@ const TermsOfServicePage = () => {
             </h1>
 
             <p className="text-xl text-white/70 max-w-3xl mx-auto leading-relaxed mb-8">
-              These terms govern your use of StartupOS and outline the rules, rights, and responsibilities 
+              These terms govern your use of Biggbizz and outline the rules, rights, and responsibilities 
               for all users of our platform.
             </p>
 
@@ -144,10 +144,10 @@ const TermsOfServicePage = () => {
           >
             <div className="policy-content max-w-none">
               <h2>1. Acceptance of Terms</h2>
-              <p>By accessing and using StartupOS ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+              <p>By accessing and using Biggbizz ("the Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
 
               <h2>2. Description of Service</h2>
-              <p>StartupOS provides a comprehensive platform for startup development, including but not limited to:</p>
+              <p>Biggbizz provides a comprehensive platform for startup development, including but not limited to:</p>
               <ul>
                 <li>AI-powered co-building tools and resources</li>
                 <li>Ecosystem access and networking opportunities</li>
@@ -186,7 +186,7 @@ const TermsOfServicePage = () => {
 
               <h2>5. Intellectual Property Rights</h2>
               <h3>5.1 Our Rights</h3>
-              <p>The Service and its original content, features, and functionality are owned by StartupOS and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
+              <p>The Service and its original content, features, and functionality are owned by Biggbizz and are protected by international copyright, trademark, patent, trade secret, and other intellectual property laws.</p>
 
               <h3>5.2 Your Rights</h3>
               <p>You retain ownership of any content you create or upload to the Service. By uploading content, you grant us a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, and distribute your content in connection with the Service.</p>
@@ -215,13 +215,13 @@ const TermsOfServicePage = () => {
               <p>The Service is provided "as is" and "as available." We do not guarantee that the Service will be uninterrupted or error-free.</p>
 
               <h3>8.2 Limitation of Liability</h3>
-              <p>To the maximum extent permitted by law, StartupOS shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use.</p>
+              <p>To the maximum extent permitted by law, Biggbizz shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of profits, data, or use.</p>
 
               <h3>8.3 No Warranty</h3>
               <p>We make no warranties about the accuracy, reliability, completeness, or timeliness of the Service or any content therein.</p>
 
               <h2>9. Indemnification</h2>
-              <p>You agree to indemnify and hold harmless StartupOS, its officers, directors, employees, and agents from any claims, damages, or expenses arising from your use of the Service or violation of these Terms.</p>
+              <p>You agree to indemnify and hold harmless Biggbizz, its officers, directors, employees, and agents from any claims, damages, or expenses arising from your use of the Service or violation of these Terms.</p>
 
               <h2>10. Termination</h2>
               <h3>10.1 Termination by You</h3>
@@ -253,7 +253,7 @@ const TermsOfServicePage = () => {
               <p>If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary so that these Terms will otherwise remain in full force and effect.</p>
 
               <h2>14. Entire Agreement</h2>
-              <p>These Terms, together with our Privacy Policy and any other legal notices published by us, constitute the entire agreement between you and StartupOS regarding the Service.</p>
+              <p>These Terms, together with our Privacy Policy and any other legal notices published by us, constitute the entire agreement between you and Biggbizz regarding the Service.</p>
 
               <h2>15. Contact Information</h2>
               <p>If you have any questions about these Terms of Service, please contact us:</p>

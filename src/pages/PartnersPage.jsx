@@ -627,7 +627,7 @@ const PartnersPage = () => {
               Application Process
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Our streamlined process makes it easy to become a StartupOS partner.
+              Our streamlined process makes it easy to become a Biggbizz partner.
             </p>
           </motion.div>
 
@@ -887,7 +887,7 @@ const PartnersPage = () => {
                           required
                           rows={3}
                           className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-green-400 transition-colors"
-                          placeholder="What benefits can you bring to StartupOS and our users?"
+                          placeholder="What benefits can you bring to Biggbizz and our users?"
                         />
                       </div>
 
@@ -899,7 +899,7 @@ const PartnersPage = () => {
                           onChange={handleInputChange}
                           rows={3}
                           className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-xl text-white placeholder-white/40 focus:outline-none focus:border-green-400 transition-colors"
-                          placeholder="What do you need from StartupOS for this partnership?"
+                          placeholder="What do you need from Biggbizz for this partnership?"
                         />
                       </div>
                     </div>

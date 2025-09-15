@@ -181,10 +181,10 @@ const MVPtoPMF = () => {
     }
   ];
 
-  const startupOSAdvantages = [
+  const biggbizzAdvantages = [
     {
       title: "PMF-Focused Intelligence",
-      description: "StartupOS is specifically designed to help you find product-market fit faster than any other tool.",
+      description: "Biggbizz is specifically designed to help you find product-market fit faster than any other tool.",
       features: [
         "PMF tracking dashboard with proven indicators",
         "Customer feedback analysis and sentiment tracking",
@@ -221,21 +221,21 @@ const MVPtoPMF = () => {
     {
       founder: "Lisa Park",
       company: "DataFlow",
-      story: "Lisa had a data analytics tool but couldn't figure out who her real customers were. StartupOS helped her identify her ideal customer profile and test different value propositions. She discovered her core value was 10x faster than competitors, not just 'better analytics'.",
+      story: "Lisa had a data analytics tool but couldn't figure out who her real customers were. Biggbizz helped her identify her ideal customer profile and test different value propositions. She discovered her core value was 10x faster than competitors, not just 'better analytics'.",
       result: "Achieved PMF in 8 months, now $5M ARR",
       icon: Target
     },
     {
       founder: "David Chen",
       company: "CloudSync",
-      story: "David was building features based on every customer request. StartupOS showed him how to analyze usage patterns and focus on the 20% of features that drove 80% of value. This led to a complete product redesign.",
+      story: "David was building features based on every customer request. Biggbizz showed him how to analyze usage patterns and focus on the 20% of features that drove 80% of value. This led to a complete product redesign.",
       result: "User retention improved from 30% to 70%",
       icon: Activity
     },
     {
       founder: "Maria Rodriguez",
       company: "EduTech",
-      story: "Maria was struggling with pricing. StartupOS helped her test different price points and value propositions. She discovered her customers would pay 3x more for enterprise features she hadn't even built yet.",
+      story: "Maria was struggling with pricing. Biggbizz helped her test different price points and value propositions. She discovered her customers would pay 3x more for enterprise features she hadn't even built yet.",
       result: "ARPU increased from $29 to $89/month",
       icon: DollarSign
     }
@@ -481,7 +481,7 @@ const MVPtoPMF = () => {
                 </div>
                 
                 <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
-                  <h4 className="text-blue-400 font-semibold mb-2">StartupOS Solution:</h4>
+                  <h4 className="text-blue-400 font-semibold mb-2">Biggbizz Solution:</h4>
                   <p className="text-white/80 text-sm">{mistake.solution}</p>
                 </div>
               </motion.div>
@@ -490,7 +490,7 @@ const MVPtoPMF = () => {
         </div>
       </section>
 
-      {/* StartupOS Advantages */}
+      {/* Biggbizz Advantages */}
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -500,15 +500,15 @@ const MVPtoPMF = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why StartupOS is Different
+              Why Biggbizz is Different
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Unlike generic analytics tools, StartupOS is built specifically for PMF validation.
+              Unlike generic analytics tools, Biggbizz is built specifically for PMF validation.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {startupOSAdvantages.map((advantage, index) => (
+            {biggbizzAdvantages.map((advantage, index) => (
               <motion.div
                 key={advantage.title}
                 initial={{ opacity: 0, y: 50 }}
@@ -547,7 +547,7 @@ const MVPtoPMF = () => {
               Success Stories
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Real founders who used StartupOS to achieve PMF successfully.
+              Real founders who used Biggbizz to achieve PMF successfully.
             </p>
           </motion.div>
 

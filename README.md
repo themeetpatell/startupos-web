@@ -1,4 +1,4 @@
-# 🚀 StartupOS Revolutionary Website
+# 🚀 Biggbizz Revolutionary Website
 
 **The most advanced startup website ever created - 100X better than Apple's website with zero bugs!**
 
@@ -42,7 +42,7 @@
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd startupos-revolutionary
+cd biggbizz-revolutionary
 
 # Install dependencies
 pnpm install
@@ -60,7 +60,7 @@ pnpm run preview
 ## 📁 Project Structure
 
 ```
-startupos-revolutionary/
+biggbizz-revolutionary/
 ├── src/
 │   ├── components/
 │   │   ├── UltraNavigation.jsx      # Revolutionary navigation
@@ -203,9 +203,9 @@ Update component content and copy to match your brand and messaging.
 ## 📞 Support
 
 For questions or support, please contact:
-- Email: support@startupos.com
-- Website: https://startupos.com
-- Documentation: https://docs.startupos.com
+- Email: support@biggbizz.com
+- Website: https://biggbizz.com
+- Documentation: https://docs.biggbizz.com
 
 ## 📄 License
 
@@ -213,7 +213,7 @@ This project is proprietary and confidential. All rights reserved.
 
 ---
 
-**Built with ❤️ by the StartupOS team**
+**Built with ❤️ by the Biggbizz team**
 
 *The most revolutionary startup website ever created - setting new standards for design, performance, and user experience.*
 

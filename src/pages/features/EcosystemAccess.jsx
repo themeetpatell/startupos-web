@@ -754,7 +754,7 @@ const EcosystemAccess = () => {
               </div>
 
               <motion.a
-                href="https://startupos-one.vercel.app/signup"
+                href="https://biggbizz.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05 }}
@@ -803,7 +803,7 @@ const EcosystemAccess = () => {
                   <Users className="w-12 h-12 text-white" />
                 </div>
                 <h2 className="text-4xl font-bold text-white mb-4">
-                  🚀 Join the StartupOS Community
+                  🚀 Join the Biggbizz Community
                 </h2>
                 <p className="text-xl text-white/80 mb-8 leading-relaxed max-w-3xl mx-auto">
                   We're building the most trusted space for founders, operators, and startup talent — live AMAs, execution frameworks, insider resources, and real collaboration.

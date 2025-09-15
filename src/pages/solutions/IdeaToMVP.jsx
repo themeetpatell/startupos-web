@@ -94,10 +94,10 @@ const IdeaToMVP = () => {
     }
   ];
 
-  const startupOSAdvantages = [
+  const biggbizzAdvantages = [
     {
       title: "Stage-Aware Intelligence",
-      description: "Unlike generic tools, StartupOS understands exactly where you are in your journey and provides stage-specific guidance.",
+      description: "Unlike generic tools, Biggbizz understands exactly where you are in your journey and provides stage-specific guidance.",
       features: [
         "Adapts to your specific startup stage",
         "Provides context-aware recommendations",
@@ -134,21 +134,21 @@ const IdeaToMVP = () => {
     {
       founder: "Sarah Chen",
       company: "EcoFlow",
-      story: "Sarah had a brilliant idea for sustainable packaging but was overwhelmed by where to start. StartupOS helped her identify her core value proposition and build a simple MVP in 3 weeks. She validated her idea with 50 customers before building anything complex.",
+      story: "Sarah had a brilliant idea for sustainable packaging but was overwhelmed by where to start. Biggbizz helped her identify her core value proposition and build a simple MVP in 3 weeks. She validated her idea with 50 customers before building anything complex.",
       result: "Raised $500K seed round in 6 months",
       icon: Heart
     },
     {
       founder: "Marcus Rodriguez",
       company: "TechTutor",
-      story: "Marcus spent 4 months researching and planning his edtech startup. StartupOS showed him how to build a basic prototype in 2 weeks and get real user feedback. This saved him 6 months and $100K in development costs.",
+      story: "Marcus spent 4 months researching and planning his edtech startup. Biggbizz showed him how to build a basic prototype in 2 weeks and get real user feedback. This saved him 6 months and $100K in development costs.",
       result: "10,000 users in first 3 months",
       icon: Eye
     },
     {
       founder: "Alex Thompson",
       company: "HealthSync",
-      story: "Alex was building features based on assumptions. StartupOS helped him identify his riskiest assumptions and test them systematically. He discovered his core value proposition was completely different from what he initially thought.",
+      story: "Alex was building features based on assumptions. Biggbizz helped him identify his riskiest assumptions and test them systematically. He discovered his core value proposition was completely different from what he initially thought.",
       result: "Pivoted successfully, now $2M ARR",
       icon: Target
     }
@@ -393,7 +393,7 @@ const IdeaToMVP = () => {
                 </div>
                 
                                   <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
-                  <h4 className="text-blue-400 font-semibold mb-2">StartupOS Solution:</h4>
+                  <h4 className="text-blue-400 font-semibold mb-2">Biggbizz Solution:</h4>
                   <p className="text-white/80 text-sm">{mistake.solution}</p>
                 </div>
               </motion.div>
@@ -402,7 +402,7 @@ const IdeaToMVP = () => {
         </div>
       </section>
 
-      {/* StartupOS Advantages */}
+      {/* Biggbizz Advantages */}
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -412,15 +412,15 @@ const IdeaToMVP = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why StartupOS is Different
+              Why Biggbizz is Different
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Unlike generic tools, StartupOS is built specifically for your stage and challenges.
+              Unlike generic tools, Biggbizz is built specifically for your stage and challenges.
             </p>
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {startupOSAdvantages.map((advantage, index) => (
+            {biggbizzAdvantages.map((advantage, index) => (
               <motion.div
                 key={advantage.title}
                 initial={{ opacity: 0, y: 50 }}
@@ -459,7 +459,7 @@ const IdeaToMVP = () => {
               Success Stories
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Real founders who used StartupOS to go from idea to MVP successfully.
+              Real founders who used Biggbizz to go from idea to MVP successfully.
             </p>
           </motion.div>
 

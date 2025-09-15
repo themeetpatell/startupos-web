@@ -101,10 +101,10 @@ const EcosystemPartners = () => {
     }
   ];
 
-  const startupOSAdvantages = [
+  const biggbizzAdvantages = [
     {
       title: "Ecosystem Intelligence Platform",
-      description: "Unlike generic tools, StartupOS provides ecosystem-specific intelligence and coordination frameworks.",
+      description: "Unlike generic tools, Biggbizz provides ecosystem-specific intelligence and coordination frameworks.",
       features: [
         "Portfolio company performance tracking",
         "Cross-startup collaboration facilitation",
@@ -144,7 +144,7 @@ const EcosystemPartners = () => {
     {
       founder: "David Kim",
       company: "TechHub Accelerator",
-      story: "Used StartupOS ecosystem platform to coordinate support for 200+ startups. The AI-powered system helped us identify which startups needed what resources, resulting in 3x higher success rates.",
+      story: "Used Biggbizz ecosystem platform to coordinate support for 200+ startups. The AI-powered system helped us identify which startups needed what resources, resulting in 3x higher success rates.",
       result: "200+ startups supported with 85% success rate"
     },
     {
@@ -156,7 +156,7 @@ const EcosystemPartners = () => {
     {
       founder: "Alex Thompson",
       company: "Startup Network",
-      story: "StartupOS helped us scale our support from 50 to 500 startups without losing quality. The AI systems maintain personal touch while automating routine tasks.",
+      story: "Biggbizz helped us scale our support from 50 to 500 startups without losing quality. The AI systems maintain personal touch while automating routine tasks.",
       result: "10x scale with 95% satisfaction rate"
     }
   ];
@@ -411,7 +411,7 @@ const EcosystemPartners = () => {
         </div>
       </section>
 
-      {/* StartupOS Advantages */}
+      {/* Biggbizz Advantages */}
       <section className="py-20 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
@@ -421,7 +421,7 @@ const EcosystemPartners = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl font-bold text-white mb-6">
-              Why StartupOS for Ecosystem Success
+              Why Biggbizz for Ecosystem Success
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
               Unlike generic tools, we provide ecosystem-specific intelligence and proven frameworks.
@@ -429,7 +429,7 @@ const EcosystemPartners = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {startupOSAdvantages.map((advantage, index) => (
+            {biggbizzAdvantages.map((advantage, index) => (
               <motion.div
                 key={advantage.title}
                 initial={{ opacity: 0, y: 50 }}
@@ -467,7 +467,7 @@ const EcosystemPartners = () => {
               Ecosystem Success Stories
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Real ecosystem builders who used StartupOS to create thriving communities.
+              Real ecosystem builders who used Biggbizz to create thriving communities.
             </p>
           </motion.div>
 
