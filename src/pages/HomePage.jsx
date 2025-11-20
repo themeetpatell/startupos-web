@@ -58,10 +58,10 @@ const HomePage = () => {
 
   // HERO SECTION DATA
   const heroStats = [
-    { number: "50+", label: "Startups", icon: Rocket, color: "from-blue-500 to-cyan-500" },
-    { number: "1000+", label: "Community Audience", icon: Building2, color: "from-blue-600 to-blue-800" },
-    { number: "200+", label: "Founders", icon: Crown, color: "from-blue-400 to-blue-600" },
-    { number: "4.9/5", label: "Rating", icon: Star, color: "from-cyan-500 to-blue-500" }
+    { number: "50+", label: "Startups", icon: Rocket, color: "from-emerald-400 to-cyan-500" },
+    { number: "1000+", label: "Community Audience", icon: Building2, color: "from-teal-500 to-sky-600" },
+    { number: "200+", label: "Founders", icon: Crown, color: "from-amber-400 to-orange-500" },
+    { number: "4.9/5", label: "Rating", icon: Star, color: "from-lime-300 to-emerald-500" }
   ];
 
   // INNOVATION TOOLS
@@ -71,51 +71,51 @@ const HomePage = () => {
       title: "AI Co-Builders",
       description: "Your AI co-founder that never sleeps, never doubts, and always finds the best path forward.",
       impact: "10x faster development",
-      color: "from-blue-500 to-cyan-500"
+      color: "from-emerald-400 to-cyan-500"
     },
     {
       icon: Compass,
       title: "Stage-Aware Intelligence",
       description: "Knows exactly what you need at each stage of your journey - from idea to scale.",
       impact: "Right strategy, right time",
-      color: "from-blue-600 to-blue-800"
+      color: "from-teal-500 to-sky-700"
     },
     {
       icon: Users,
       title: "Fractional CXOs",
       description: "Access to world-class leadership on demand, without the full-time commitment.",
       impact: "Expert guidance when needed",
-      color: "from-blue-400 to-blue-600"
+      color: "from-amber-400 to-orange-500"
     },
     {
       icon: Activity,
       title: "Real-Time Analytics",
       description: "See your startup's heartbeat in real-time. Every metric, every trend, every opportunity.",
       impact: "Data-driven decisions",
-      color: "from-cyan-500 to-blue-500"
+      color: "from-lime-300 to-emerald-500"
     },
     {
       icon: Building2,
       title: "Mergers & Acquisitions",
       description: "Navigate complex M&A deals with expert guidance, due diligence, and strategic execution.",
       impact: "Maximize deal value",
-      color: "from-blue-500 to-indigo-600"
+      color: "from-cyan-400 to-teal-600"
     },
     {
       icon: Network,
       title: "World-Class Community",
       description: "Join 10K+ founders with premium features, expert mentors, and exclusive resources.",
       impact: "Network & grow together",
-      color: "from-indigo-500 to-purple-600"
+      color: "from-amber-300 to-rose-500"
     }
   ];
 
   // SUCCESS METRICS
   const successMetrics = [
-    { metric: "1,000+", label: "Audience", description: "Trusted our community", icon: UsersIcon, color: "from-blue-500 to-cyan-500" },
-    { metric: "$50+", label: "Startups", description: "Trusted our platform", icon: DollarSign, color: "from-blue-600 to-blue-800" },
-    { metric: "95%", label: "Success Rate", description: "Based on surveys", icon: CheckCircle, color: "from-blue-400 to-blue-600" },
-    { metric: "24/7", label: "AI Support", description: "Always available", icon: ZapIcon, color: "from-cyan-500 to-blue-500" }
+    { metric: "1,000+", label: "Audience", description: "Trusted our community", icon: UsersIcon, color: "from-emerald-400 to-cyan-500" },
+    { metric: "$50+", label: "Startups", description: "Trusted our platform", icon: DollarSign, color: "from-teal-500 to-sky-700" },
+    { metric: "95%", label: "Success Rate", description: "Based on surveys", icon: CheckCircle, color: "from-amber-400 to-orange-500" },
+    { metric: "24/7", label: "AI Support", description: "Always available", icon: ZapIcon, color: "from-lime-300 to-emerald-500" }
   ];
 
   return (
@@ -125,14 +125,14 @@ const HomePage = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
         {/* Animated Background Grid */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-900/10 to-black" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-emerald-900/10 to-black" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.12),transparent_50%)]" />
           
           {/* Floating Geometric Shapes */}
           {Array.from({ length: 20 }).map((_, i) => (
             <motion.div
               key={i}
-              className="absolute w-2 h-2 bg-blue-500/30 rounded-full"
+              className="absolute w-2 h-2 bg-emerald-400/25 rounded-full"
               style={{
                 left: `${Math.random() * 100}%`,
                 top: `${Math.random() * 100}%`,
@@ -159,15 +159,15 @@ const HomePage = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="inline-flex items-center space-x-2 bg-gradient-to-r from-red-500/20 to-orange-500/20 rounded-full px-6 py-3 border border-red-500/30 mb-8 mt-8"
+            className="inline-flex items-center space-x-2 bg-gradient-to-r from-amber-400/20 to-emerald-400/20 rounded-full px-6 py-3 border border-amber-300/40 mb-8 mt-8"
           >
             <motion.div
               animate={{ rotate: [0, 360] }}
               transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
             >
-              <TrendingDown className="w-5 h-5 text-red-400" />
+              <TrendingDown className="w-5 h-5 text-amber-300" />
             </motion.div>
-            <span className="text-red-400 font-medium">9 out of 10 startups fail</span>
+            <span className="text-amber-200 font-medium">9 out of 10 startups fail</span>
           </motion.div>
 
           {/* Main Headline - Revolutionary Storytelling */}
@@ -180,7 +180,7 @@ const HomePage = () => {
             <h1 className="text-6xl md:text-8xl font-black leading-none mb-6">
               <span className="text-white">THE</span>
               <br />
-              <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
                 STARTUP OS
               </span>
               <br />
@@ -189,9 +189,9 @@ const HomePage = () => {
             <p className="text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed">
               90% of startups fail. Not because the idea was bad, but because founders lack the right startup operating system. 
               <br />
-              <span className="text-red-400 font-semibold">The startup journey is harder than anyone imagined - but it doesn't have to be.</span>
+              <span className="text-amber-200 font-semibold">The startup journey is harder than anyone imagined - but it doesn't have to be.</span>
               <br />
-              <span className="text-blue-400 font-semibold">Biggbizz gives founders, entrepreneurs, and startup teams the ultimate arsenal to succeed.</span>
+              <span className="text-emerald-300 font-semibold">Biggbizz gives founders, entrepreneurs, and startup teams the ultimate arsenal to succeed.</span>
             </p>
           </motion.div>
 
@@ -211,13 +211,13 @@ const HomePage = () => {
                 className="group cursor-pointer"
               >
                 <motion.div
-                  className="bg-black/30 backdrop-blur-xl border border-blue-500/20 rounded-2xl p-6 hover:border-blue-500/40 transition-all duration-300"
+                  className="bg-black/30 backdrop-blur-xl border border-emerald-400/25 rounded-2xl p-6 hover:border-emerald-300/40 transition-all duration-300"
                   whileHover={{ scale: 1.05, y: -5 }}
                 >
-                  <div className={`w-12 h-12 bg-gradient-to-r ${stat.color} rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300`}>
+                  <div className={`w-12 h-12 bg-gradient-to-r ${stat.color} shadow-[0_12px_30px_-14px_rgba(16,185,129,0.55)] rounded-xl flex items-center justify-center mx-auto mb-3 group-hover:scale-110 transition-transform duration-300`}>
                     <stat.icon className="w-6 h-6 text-white" />
                   </div>
-                  <div className="text-3xl font-bold text-white mb-1 group-hover:text-blue-100 transition-colors">
+                  <div className="text-3xl font-bold text-white mb-1 group-hover:text-emerald-50 transition-colors">
                     {stat.number}
                   </div>
                   <div className="text-white/70 text-sm group-hover:text-white/80 transition-colors">
@@ -246,7 +246,7 @@ const HomePage = () => {
               whileTap={{ scale: 0.95 }}
               className="px-10 py-5 text-white/80 hover:text-white transition-colors duration-300 border-2 border-white/20 rounded-2xl hover:border-white/40 flex items-center space-x-3 group"
             >
-              <MessageCircle className="w-6 h-6 group-hover:text-blue-400 transition-colors" />
+              <MessageCircle className="w-6 h-6 group-hover:text-emerald-300 transition-colors" />
               <span>Join the Community</span>
             </motion.button>
           </motion.div>
@@ -261,7 +261,7 @@ const HomePage = () => {
             <motion.div
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 2, repeat: Infinity }}
-              className="text-blue-400"
+              className="text-emerald-300"
             >
               <ChevronDown className="w-8 h-8" />
             </motion.div>
@@ -273,9 +273,9 @@ const HomePage = () => {
       <section className="py-32 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-red-900/10 via-black to-blue-900/10" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(239,68,68,0.1),transparent_50%)]" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(59,130,246,0.1),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-emerald-900/10 via-black to-amber-900/10" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(16,185,129,0.12),transparent_50%)]" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(245,158,11,0.12),transparent_50%)]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -288,7 +288,7 @@ const HomePage = () => {
             <h2 className="text-5xl md:text-7xl font-black text-white mb-6">
               MEET THE
               <br />
-              <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-300 to-amber-300 bg-clip-text text-transparent">
                 DESTROYERS
               </span>
             </h2>
@@ -305,7 +305,7 @@ const HomePage = () => {
                 description: "The silent killer that claims 90% of startups",
                 weakness: "AI-powered guidance and stage-aware intelligence",
                 icon: TrendingDown,
-                color: "from-red-500 to-red-700",
+                color: "from-amber-400 to-orange-500",
                 animation: "pulse"
               },
               {
@@ -313,7 +313,7 @@ const HomePage = () => {
                 description: "The fog that blinds founders from the right path",
                 weakness: "Real-time analytics and predictive insights",
                 icon: Eye,
-                color: "from-orange-500 to-orange-700",
+                color: "from-cyan-400 to-emerald-500",
                 animation: "bounce"
               },
               {
@@ -321,7 +321,7 @@ const HomePage = () => {
                 description: "The limitation that forces premature decisions",
                 weakness: "Fractional CXOs and ecosystem access",
                 icon: DollarSign,
-                color: "from-yellow-500 to-yellow-700",
+                color: "from-lime-300 to-emerald-500",
                 animation: "shake"
               },
               {
@@ -329,7 +329,7 @@ const HomePage = () => {
                 description: "The distraction that scatters startup energy",
                 weakness: "Stage-aware gamification and AI prioritization",
                 icon: Target,
-                color: "from-purple-500 to-purple-700",
+                color: "from-amber-300 to-rose-500",
                 animation: "pulse"
               },
               {
@@ -337,7 +337,7 @@ const HomePage = () => {
                 description: "The gap between strategy and implementation",
                 weakness: "AI Co-Builders and execution frameworks",
                 icon: Zap,
-                color: "from-indigo-500 to-indigo-700",
+                color: "from-teal-500 to-sky-700",
                 animation: "bounce"
               },
               {
@@ -345,7 +345,7 @@ const HomePage = () => {
                 description: "The isolation that limits growth opportunities",
                 weakness: "World-class community and ecosystem partnerships",
                 icon: Network,
-                color: "from-cyan-500 to-cyan-700",
+                color: "from-emerald-400 to-cyan-600",
                 animation: "shake"
               }
             ].map((villain, index) => (
@@ -357,11 +357,11 @@ const HomePage = () => {
                 className="group cursor-pointer"
               >
                 <motion.div
-                  className="relative bg-black/50 backdrop-blur-xl border border-red-500/30 rounded-3xl p-8 hover:border-red-400/50 transition-all duration-500"
+                  className="relative bg-black/50 backdrop-blur-xl border border-emerald-400/30 rounded-3xl p-8 hover:border-emerald-300/50 transition-all duration-500"
                   whileHover={{ 
                     scale: 1.05, 
                     rotateY: 5,
-                    boxShadow: "0 25px 50px -12px rgba(239, 68, 68, 0.25)"
+                    boxShadow: "0 25px 50px -12px rgba(16, 185, 129, 0.25)"
                   }}
                   animate={{
                     y: [0, -10, 0],
@@ -381,15 +381,15 @@ const HomePage = () => {
                     <villain.icon className="w-10 h-10 text-white" />
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-red-300 transition-colors">
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-emerald-100 transition-colors">
                     {villain.name}
                   </h3>
                   <p className="text-white/70 mb-6 leading-relaxed">
                     {villain.description}
                   </p>
                   
-                  <div className="bg-red-500/10 border border-red-500/20 rounded-xl p-4">
-                    <p className="text-red-400 font-semibold text-sm">
+                  <div className="bg-emerald-500/10 border border-emerald-400/25 rounded-xl p-4">
+                    <p className="text-emerald-200 font-semibold text-sm">
                       <span className="text-white/60">Weakness: </span>
                       {villain.weakness}
                     </p>
@@ -405,8 +405,8 @@ const HomePage = () => {
       <section className="py-32 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-red-900/5 to-black" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(239,68,68,0.05),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-emerald-900/5 to-black" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_50%,rgba(16,185,129,0.08),transparent_50%)]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -419,7 +419,7 @@ const HomePage = () => {
             <h2 className="text-5xl md:text-7xl font-black text-white mb-6">
               WITNESS THE
               <br />
-              <span className="bg-gradient-to-r from-red-500 to-orange-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-300 to-amber-300 bg-clip-text text-transparent">
                 DESTRUCTION
               </span>
             </h2>
@@ -431,7 +431,7 @@ const HomePage = () => {
           {/* Destruction Timeline - Extraordinary Design */}
           <div className="relative">
             {/* Central Timeline Line */}
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-red-500 via-orange-500 to-red-500 h-full" />
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-gradient-to-b from-emerald-400 via-amber-300 to-cyan-400 h-full" />
             
             <div className="space-y-16">
               {[
@@ -440,28 +440,28 @@ const HomePage = () => {
                   failure: "70%",
                   description: "Never get past the initial concept",
                   icon: Lightbulb,
-                  color: "from-red-400 to-red-600"
+                  color: "from-emerald-400 to-cyan-500"
                 },
                 {
                   stage: "MVP Stage", 
                   failure: "85%",
                   description: "Fail to find product-market fit",
                   icon: Rocket,
-                  color: "from-orange-400 to-orange-600"
+                  color: "from-amber-400 to-orange-500"
                 },
                 {
                   stage: "Growth Stage",
                   failure: "90%",
                   description: "Can't scale without proper systems",
                   icon: TrendingUp,
-                  color: "from-red-500 to-red-700"
+                  color: "from-teal-500 to-sky-700"
                 },
                 {
                   stage: "Scale Stage",
                   failure: "95%",
                   description: "Operations collapse under pressure",
                   icon: Users,
-                  color: "from-red-600 to-red-800"
+                  color: "from-amber-500 to-emerald-500"
                 }
               ].map((item, index) => (
                 <motion.div
@@ -472,19 +472,19 @@ const HomePage = () => {
                   className={`relative flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}
                 >
                   {/* Timeline Node */}
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-gradient-to-r from-red-500 to-orange-500 rounded-full border-4 border-black shadow-2xl z-10" />
+                  <div className="absolute left-1/2 transform -translate-x-1/2 w-8 h-8 bg-gradient-to-r from-emerald-400 to-amber-300 rounded-full border-4 border-black shadow-2xl z-10" />
                   
                   {/* Content Card */}
                   <div className={`w-5/12 ${index % 2 === 0 ? 'pr-16' : 'pl-16'}`}>
                     <motion.div
-                      className="bg-black/50 backdrop-blur-xl border border-red-500/20 rounded-2xl p-8 hover:border-red-400/40 transition-all duration-300"
+                      className="bg-black/50 backdrop-blur-xl border border-emerald-400/25 rounded-2xl p-8 hover:border-emerald-300/40 transition-all duration-300"
                       whileHover={{ scale: 1.02, y: -5 }}
                     >
                       <div className={`w-16 h-16 bg-gradient-to-r ${item.color} rounded-xl flex items-center justify-center mb-6`}>
                         <item.icon className="w-8 h-8 text-white" />
                       </div>
                       <h3 className="text-2xl font-bold text-white mb-3">{item.stage}</h3>
-                      <div className="text-4xl font-black text-red-400 mb-2">{item.failure}</div>
+                      <div className="text-4xl font-black text-amber-200 mb-2">{item.failure}</div>
                       <p className="text-white/80 leading-relaxed">{item.description}</p>
                     </motion.div>
                   </div>
@@ -499,8 +499,8 @@ const HomePage = () => {
       <section className="py-32 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-900/10 to-black" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-emerald-900/10 to-black" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_50%)]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -513,7 +513,7 @@ const HomePage = () => {
             <h2 className="text-5xl md:text-7xl font-black text-white mb-6">
               YOUR
               <br />
-              <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-300 to-cyan-400 bg-clip-text text-transparent">
                 ARSENAL
               </span>
             </h2>
@@ -533,11 +533,11 @@ const HomePage = () => {
                 className="group cursor-pointer"
               >
                 <motion.div
-                  className="relative bg-black/50 backdrop-blur-xl border border-blue-500/30 rounded-3xl p-8 hover:border-blue-400/50 transition-all duration-500"
+                  className="relative bg-black/50 backdrop-blur-xl border border-emerald-400/30 rounded-3xl p-8 hover:border-emerald-300/50 transition-all duration-500"
                   whileHover={{ 
                     scale: 1.05, 
                     rotateY: 5,
-                    boxShadow: "0 25px 50px -12px rgba(59, 130, 246, 0.25)"
+                    boxShadow: "0 25px 50px -12px rgba(16, 185, 129, 0.25)"
                   }}
                   animate={{
                     y: [0, -10, 0],
@@ -557,15 +557,15 @@ const HomePage = () => {
                     <tool.icon className="w-10 h-10 text-white" />
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-blue-100 transition-colors">
+                  <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-emerald-50 transition-colors">
                     {tool.title}
                   </h3>
                   <p className="text-white/70 mb-6 leading-relaxed">
                     {tool.description}
                   </p>
                   
-                  <div className="bg-blue-500/10 border border-blue-500/20 rounded-xl p-4">
-                    <p className="text-blue-400 font-semibold text-sm">
+                  <div className="bg-emerald-500/10 border border-emerald-400/25 rounded-xl p-4">
+                    <p className="text-emerald-200 font-semibold text-sm">
                       <span className="text-white/60">Impact: </span>
                       {tool.impact}
                     </p>
@@ -583,8 +583,8 @@ const HomePage = () => {
       <section className="py-24 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-900/30 to-black" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.2),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-emerald-900/25 to-black" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.18),transparent_50%)]" />
         </div>
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -595,17 +595,17 @@ const HomePage = () => {
             className="relative"
           >
             {/* Animated Background */}
-            <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 via-emerald-500/20 to-green-500/20 rounded-3xl blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 via-teal-400/20 to-amber-300/20 rounded-3xl blur-3xl" />
             
             {/* Main Content */}
-            <div className="relative bg-black/60 backdrop-blur-xl rounded-3xl p-16 text-center border border-green-500/30">
+            <div className="relative bg-black/60 backdrop-blur-xl rounded-3xl p-16 text-center border border-emerald-400/35">
               <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8, delay: 0.3 }}
                 className="mb-8"
               >
-                <div className="w-24 h-24 bg-gradient-to-r from-green-500 to-emerald-500 rounded-full flex items-center justify-center mx-auto mb-6">
+                <div className="w-24 h-24 bg-gradient-to-r from-emerald-400 to-teal-500 rounded-full flex items-center justify-center mx-auto mb-6">
                   <Users className="w-12 h-12 text-white" />
                 </div>
                 <h2 className="text-4xl font-bold text-white mb-4">
@@ -614,7 +614,7 @@ const HomePage = () => {
                 <p className="text-xl text-white/80 mb-8 leading-relaxed max-w-3xl mx-auto">
                   We're building the Biggbizz space for founders, operators, and startup talent — live AMAs, execution frameworks, insider resources, and real collaboration.
                 </p>
-                <p className="text-lg text-green-400 font-semibold mb-8">
+                <p className="text-lg text-emerald-200 font-semibold mb-8">
                   Tap in, build faster, scale smarter.
                 </p>
               </motion.div>
@@ -631,7 +631,7 @@ const HomePage = () => {
                   rel="noopener noreferrer"
                   whileHover={{ scale: 1.05, y: -2 }}
                   whileTap={{ scale: 0.95 }}
-                  className="px-12 py-5 bg-gradient-to-r from-green-500 to-emerald-500 text-white font-bold text-xl rounded-2xl shadow-2xl hover:shadow-green-500/25 transition-all duration-300 hover:from-green-600 hover:to-emerald-600 flex items-center space-x-3"
+                  className="px-12 py-5 bg-gradient-to-r from-emerald-400 to-teal-500 text-white font-bold text-xl rounded-2xl shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300 hover:from-emerald-500 hover:to-teal-600 flex items-center space-x-3"
                 >
                   <MessageCircle className="w-6 h-6" />
                   <span>Join WhatsApp Community</span>
@@ -647,15 +647,15 @@ const HomePage = () => {
                 className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8"
               >
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">250+</div>
+                  <div className="text-3xl font-bold text-emerald-200 mb-2">250+</div>
                   <p className="text-white/70">Active Members</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">24/7</div>
+                  <div className="text-3xl font-bold text-emerald-200 mb-2">24/7</div>
                   <p className="text-white/70">Community Support</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">10+</div>
+                  <div className="text-3xl font-bold text-emerald-200 mb-2">10+</div>
                   <p className="text-white/70">Events</p>
                 </div>
               </motion.div>
@@ -668,8 +668,8 @@ const HomePage = () => {
       <section className="py-32 relative overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-black via-blue-900/15 to-black" />
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black via-emerald-900/15 to-black" />
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.1),transparent_50%)]" />
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -682,7 +682,7 @@ const HomePage = () => {
             <h2 className="text-5xl md:text-6xl font-black text-white mb-6">
               PROVEN
               <br />
-              <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-emerald-300 to-cyan-400 bg-clip-text text-transparent">
                 SUCCESS
               </span>
             </h2>
@@ -702,16 +702,16 @@ const HomePage = () => {
                 className="group cursor-pointer"
               >
                 <motion.div
-                  className="bg-black/30 backdrop-blur-xl border border-blue-500/20 rounded-2xl p-8 text-center hover:border-blue-500/40 transition-all duration-300"
+                  className="bg-black/30 backdrop-blur-xl border border-emerald-400/25 rounded-2xl p-8 text-center hover:border-emerald-300/40 transition-all duration-300"
                   whileHover={{ scale: 1.05, y: -10, rotateY: 5 }}
                 >
                   <div className={`w-16 h-16 bg-gradient-to-r ${metric.color} rounded-2xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform duration-300`}>
                     <metric.icon className="w-8 h-8 text-white" />
                   </div>
-                  <div className="text-4xl font-bold text-white mb-2 group-hover:text-blue-100 transition-colors">
+                  <div className="text-4xl font-bold text-white mb-2 group-hover:text-emerald-50 transition-colors">
                     {metric.metric}
                   </div>
-                  <p className="text-white font-semibold mb-2 group-hover:text-blue-200 transition-colors">
+                  <p className="text-white font-semibold mb-2 group-hover:text-emerald-100 transition-colors">
                     {metric.label}
                   </p>
                   <p className="text-white/60 text-sm group-hover:text-white/80 transition-colors">
